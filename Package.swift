@@ -9,6 +9,7 @@ let package = Package(
     platforms: [
         .iOS(.v12)
     ],
+    
     products: [
         .library(name: "SPMTest", targets: ["SPMTest"])
     ],
@@ -21,9 +22,9 @@ let package = Package(
     
     targets: [
         .binaryTarget(
-                    name: "ZegoExpressEngine",
-                    url: "https://artifact-node.zego.cloud/generic/swiftpm/public/express-video-ios/ZegoExpressEngine.xcframework.zip?version=3.2.0",
+                    name: "SPMTest",
+                    url: "https://github.com/xihang-real/SPMTest/blob/main/SPMTest.xcframework.zip",
                     checksum: "bbc5df01b1960cc3790bcaa60ef603188b2415fdb3a293de33918e18b9dd28d5"
                 )
-    ],
+    ]
 )
