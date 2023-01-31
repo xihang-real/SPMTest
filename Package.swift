@@ -21,10 +21,6 @@ let package = Package(
     ],
     
     targets: [
-        .binaryTarget(
-                    name: "SPMTest",
-                    url: "https://github.com/xihang-real/SPMTest/blob/main/SPMTest.xcframework.zip",
-                    checksum: "bbc5df01b1960cc3790bcaa60ef603188b2415fdb3a293de33918e18b9dd28d5"
-                )
+        .binaryTarget(name: "SPMTest", url: "https://github.com/xihang-real/SPMTest/releases/download/v1.0.0/SPMTest.xcframework.zip", checksum: "bbc5df01b1960cc3790bcaa60ef603188b2415fdb3a293de33918e18b9dd28d5")
     ]
 )
