@@ -29,7 +29,7 @@ let package = Package(
 //        .binaryTarget(name: "SPMTest",
 //                      path: "artifacts/SPMTest.xcframework"),
         
-        .binaryTarget(name: "SPMTest", url: "https://github.com/xihang-real/SPMTest/releases/download/v1.1.0/SPMTest.xcframework.zip", checksum: "14481356334f3a16b949a1cc85fd86ac6548ebae3a9766e50c2d967bb4c4766f"),
+        .binaryTarget(name: "SPMTest", url: "https://github.com/xihang-real/SPMTest/releases/download/1.1.0/SPMTest.xcframework.zip", checksum: "14481356334f3a16b949a1cc85fd86ac6548ebae3a9766e50c2d967bb4c4766f"),
         
 //        .testTarget(
 //            name: "SPMTestTests",
