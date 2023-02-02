@@ -5,11 +5,14 @@ import PackageDescription
 
 let package = Package(
     
+    name: "SPMTest",
+    
     platforms: [
         .iOS(.v12)
     ],
     
     products: [
+        .library(name: "SPMTest", targets: ["SPMTest"])
     ],
     
     dependencies: [
