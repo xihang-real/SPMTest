@@ -4,14 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "SPMTest",
     
     platforms: [
         .iOS(.v12)
     ],
     
     products: [
-        .library(name: "SPMTest", targets: ["SPMTest"])
     ],
     
     dependencies: [
@@ -21,6 +19,7 @@ let package = Package(
     ],
     
     targets: [
-        .binaryTarget(name: "SPMTest", url: "https://github.com/xihang-real/SPMTest/releases/download/v1.0.0/SPMTest.xcframework.zip", checksum: "bbc5df01b1960cc3790bcaa60ef603188b2415fdb3a293de33918e18b9dd28d5")
+        .binaryTarget(name: "SPMTest", url: "https://github.com/xihang-real/SPMTest/releases/download/v1.1.0/SPMTest.xcframework.zip", checksum: "14481356334f3a16b949a1cc85fd86ac6548ebae3a9766e50c2d967bb4c4766f"),
     ]
 )
+
